@@ -14,7 +14,7 @@ solar_energy = pd.read_csv("Solar_Energy_Production.csv")
 
 # print informations
 print("Dataframe: ",solar_energy)
-print(f"info: {solar_energy.info()}")
+print(f"Info: {solar_energy.info()}")
 print(f"Buildings: {solar_energy['name'].unique()}")
 
 # solar site by date
